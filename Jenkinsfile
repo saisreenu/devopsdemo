@@ -25,6 +25,7 @@ pipeline {
         stage("Integration Tests") {
           steps {
             sh 'java -version'
+            sh 'uname -a'
           }
         }
       }
